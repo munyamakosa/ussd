@@ -9,7 +9,11 @@ if ($text == "") {
     // This is the first request. Note how we start the response with CON
     $response  = "CON Welcome to Farmhut \n";
     $response .= "1. My Account \n";
-    $response .= "2. My phone number";
+    $response .= "2. Get Today's Market Prices \n";
+    $response .= "3. Book a Truck \n";
+    $response .= "4. Purchase \n"
+    $response .= '5.'
+
 
 } else if ($text == "1") {
     // Business logic for first level response
